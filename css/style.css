@@ -1,0 +1,80 @@
+/* start main */
+body{
+	height: 4000px;
+
+}
+.container{
+	width: 1170px;
+	margin: auto;
+}
+/*End main*/
+/*start header slider */
+.header .slider{
+	background-color: #EEE;
+	height: 600px;
+}
+/*end header slider */
+/*start header navbar */
+.header .navbar{
+	background-color: #252F31;
+	color: #fff;
+	overflow: hidden;	
+}
+.header .navbar h2{	float: left; 	text-transform: uppercase;}
+.header .navbar h2 span{color: #2ecc71;}
+.header .navbar ul{
+	list-style: none;
+	padding-left: 0px;
+	float: right;
+}
+.header .navbar ul li {
+	float: left;
+	padding: 10px;
+
+}
+/*end header navbar */
+/*start properity */
+.pro {
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.pro .prop{
+	float: left;
+	width: 33.33333%;
+    height: 150px;
+    background-color: #DDD;
+
+}
+.pro .prop h2{
+	text-transform: uppercase;
+}
+/*End proerity*/ 
+/*start about me*/
+.about-me{
+	background-color: #F2F2F2;
+	overflow: hidden;
+}
+.about-me .image {
+	float: left;
+	width: 40%;
+}
+.about-me .image img{
+	width: 100%
+}
+.about-me .info{
+	float: right;
+	width: 60%;
+}
+.about-me .info .hob{
+    overflow: hidden;
+    margin: 20px;
+}
+.about-me .info .hob >div {
+	float: left;
+	width: 50%;
+	min-height: 100px;
+
+
+}
+/*end about me*/
